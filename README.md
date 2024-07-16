@@ -2,10 +2,13 @@
 ## Technology: Express JS
 ## Tools: Postman
 
-web route
+Routes
 
 Index: / \
-Users: /users \
-User details: /users/:userid
+Users[get]: /users \
+Users[post]: /users \
+Users[patch]: /users/:userid \
+Users[delete]: /users/:userid \
+User details[get]: /users/:userid
 
 
