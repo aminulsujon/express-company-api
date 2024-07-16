@@ -1,14 +1,18 @@
 # Company Website API
 ## Technology: Express JS
-## Tools: Postman
+## Tools: Postman, Visual Studio Code, Browser
 
-Routes
+###  Web Routes
 
 Index: / \
-Users[get]: /users \
-Users[post]: /users \
-Users[patch]: /users/:userid \
-Users[delete]: /users/:userid \
-User details[get]: /users/:userid
+Users: /users \
+
+### API Routes
+
+Users [get]: /users \
+User Create [post]: /users \
+User Edit [patch]: /users/:userid \
+User Delete [delete]: /users/:userid \
+User Details [get]: /users/:userid
 
 
