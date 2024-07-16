@@ -28,15 +28,15 @@ app.get('/api/v1/users/:userid', (req, res) => {
 })
 app.post('/api/v1/users', (req, res) => {
     // create new user here
-    return res.json({ status : "Pending" });
+    return res.json({ message: 'User created', status : 'Pending' });
 })
 app.patch('/api/v1/users/:userid', (req, res) => {
     // edit the user here
-    return res.json({ status : "Edited" });
+    return res.json({ message: 'User edited', status : "Edited" });
 })
 app.delete('/api/v1/users/:userid', (req, res) => {
     // delete the user here
-    return res.json({ status : "Deleted" });
+    return res.json({ message: 'User deleted', status : "Deleted" });
 })
 
 app.listen(port, () => {

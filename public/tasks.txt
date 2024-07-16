@@ -2,4 +2,5 @@ web route
 
 Index: /
 Users: /users
+User details: /users/:userid
 
