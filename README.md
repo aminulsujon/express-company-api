@@ -2,10 +2,10 @@
 ## Technology: Express JS
 ## Tools: Postman
 
-web route
+web route \
 
-Index: /
-Users: /users
-User details: /users/:userid
+Index: / \
+Users: /users \
+User details: /users/:userid \
 
 
